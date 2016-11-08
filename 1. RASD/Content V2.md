@@ -58,3 +58,5 @@
 >## Hours of work
 > Kang Shuwen 3h 31/10/2016
 > Kang Shuwen 2h 01/11/2016
+> Kang Shuwen 2h 06/11/2016
+> Kang Shuwen 2.5h 07/11/2016

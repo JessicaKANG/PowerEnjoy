@@ -1,0 +1,49 @@
+\BOOKMARK [1][-]{section.1}{INTRODUCTION}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Purpose}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Problem Description}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Glossary}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.4}{Document Structure}{section.1}% 5
+\BOOKMARK [1][-]{section.2}{ARCHITECTURAL DESIGN}{}% 6
+\BOOKMARK [2][-]{subsection.2.1}{Overview}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.2}{Component view}{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.3}{Component interfaces}{section.2}% 9
+\BOOKMARK [3][-]{subsubsection.2.3.1}{Google API}{subsection.2.3}% 10
+\BOOKMARK [3][-]{subsubsection.2.3.2}{Traffic System}{subsection.2.3}% 11
+\BOOKMARK [3][-]{subsubsection.2.3.3}{Bank System}{subsection.2.3}% 12
+\BOOKMARK [3][-]{subsubsection.2.3.4}{Mobile APP Facade}{subsection.2.3}% 13
+\BOOKMARK [3][-]{subsubsection.2.3.5}{On-Board System Facade}{subsection.2.3}% 14
+\BOOKMARK [3][-]{subsubsection.2.3.6}{Available Car Queue Manager}{subsection.2.3}% 15
+\BOOKMARK [3][-]{subsubsection.2.3.7}{Account Manager}{subsection.2.3}% 16
+\BOOKMARK [3][-]{subsubsection.2.3.8}{Reservation Manager}{subsection.2.3}% 17
+\BOOKMARK [3][-]{subsubsection.2.3.9}{Ride Manager}{subsection.2.3}% 18
+\BOOKMARK [3][-]{subsubsection.2.3.10}{Notification Manager}{subsection.2.3}% 19
+\BOOKMARK [3][-]{subsubsection.2.3.11}{Optimal Path Calculator}{subsection.2.3}% 20
+\BOOKMARK [3][-]{subsubsection.2.3.12}{Data Layer}{subsection.2.3}% 21
+\BOOKMARK [3][-]{subsubsection.2.3.13}{DBMS}{subsection.2.3}% 22
+\BOOKMARK [2][-]{subsection.2.4}{Deployment view}{section.2}% 23
+\BOOKMARK [2][-]{subsection.2.5}{Runtime view}{section.2}% 24
+\BOOKMARK [3][-]{subsubsection.2.5.1}{Register and Login}{subsection.2.5}% 25
+\BOOKMARK [3][-]{subsubsection.2.5.2}{Make a Reservation}{subsection.2.5}% 26
+\BOOKMARK [3][-]{subsubsection.2.5.3}{Cancel Reservation Automatically}{subsection.2.5}% 27
+\BOOKMARK [3][-]{subsubsection.2.5.4}{Cancel Reservation Manually}{subsection.2.5}% 28
+\BOOKMARK [3][-]{subsubsection.2.5.5}{Complete Ride on Mobile APP Side}{subsection.2.5}% 29
+\BOOKMARK [3][-]{subsubsection.2.5.6}{Complete Ride on On-Board System}{subsection.2.5}% 30
+\BOOKMARK [3][-]{subsubsection.2.5.7}{Saving Money Option}{subsection.2.5}% 31
+\BOOKMARK [2][-]{subsection.2.6}{Selected architectural styles and patterns}{section.2}% 32
+\BOOKMARK [3][-]{subsubsection.2.6.1}{Architectural style}{subsection.2.6}% 33
+\BOOKMARK [3][-]{subsubsection.2.6.2}{Design patterns}{subsection.2.6}% 34
+\BOOKMARK [2][-]{subsection.2.7}{Other design decisions}{section.2}% 35
+\BOOKMARK [3][-]{subsubsection.2.7.1}{Database Design}{subsection.2.7}% 36
+\BOOKMARK [3][-]{subsubsection.2.7.2}{Programming Language}{subsection.2.7}% 37
+\BOOKMARK [1][-]{section.3}{ALGORITHM DESIGN}{}% 38
+\BOOKMARK [2][-]{subsection.3.1}{Queue Management}{section.3}% 39
+\BOOKMARK [2][-]{subsection.3.2}{Payment Management}{section.3}% 40
+\BOOKMARK [2][-]{subsection.3.3}{Money Saving Calculation}{section.3}% 41
+\BOOKMARK [1][-]{section.4}{USER INTERFACE DESIGN}{}% 42
+\BOOKMARK [2][-]{subsection.4.1}{Mobile Application Interface}{section.4}% 43
+\BOOKMARK [2][-]{subsection.4.2}{On-Board Application Interface}{section.4}% 44
+\BOOKMARK [1][-]{section.5}{REQUIREMENTS TRACEABILITY}{}% 45
+\BOOKMARK [1][-]{section.6}{EFFORT SPENT}{}% 46
+\BOOKMARK [1][-]{section.7}{REFERENCES}{}% 47
+\BOOKMARK [2][-]{subsection.7.1}{Reference Documents}{section.7}% 48
+\BOOKMARK [2][-]{subsection.7.2}{Used Tools}{section.7}% 49

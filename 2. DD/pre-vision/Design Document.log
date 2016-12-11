@@ -1,0 +1,553 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.9)  11 DEC 2016 23:46
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**"Design Document.tex"
+(./Design Document.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 96.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count88
+\float@exts=\toks15
+\float@box=\box26
+\@float@everytoks=\toks16
+\@floatcapt=\box27
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count89
+\lst@gtempboxa=\box28
+\lst@token=\toks17
+\lst@length=\count90
+\lst@currlwidth=\dimen105
+\lst@column=\count91
+\lst@pos=\count92
+\lst@lostspace=\dimen106
+\lst@width=\dimen107
+\lst@newlines=\count93
+\lst@lineno=\count94
+\lst@maxwidth=\dimen108
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count95
+\lst@skipnumbers=\count96
+\lst@framebox=\box29
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2016/05/05 v6.83n Hypertext links for LaTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen109
+\Hy@linkcounter=\count97
+\Hy@pagecounter=\count98
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count99
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4322.
+Package hyperref Info: Hyper figures OFF on input line 4446.
+Package hyperref Info: Link nesting OFF on input line 4451.
+Package hyperref Info: Hyper index ON on input line 4454.
+Package hyperref Info: Plain pages OFF on input line 4461.
+Package hyperref Info: Backreferencing OFF on input line 4466.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4691.
+\c@Hy@tempcnt=\count100
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5044.
+\XeTeXLinkMargin=\dimen110
+\Fld@menulength=\count101
+\Field@Width=\dimen111
+\Fld@charsize=\dimen112
+Package hyperref Info: Hyper figures OFF on input line 6298.
+Package hyperref Info: Link nesting OFF on input line 6303.
+Package hyperref Info: Hyper index ON on input line 6306.
+Package hyperref Info: backreferencing OFF on input line 6313.
+Package hyperref Info: Link coloring ON on input line 6316.
+Package hyperref Info: Link coloring with OCG OFF on input line 6323.
+Package hyperref Info: PDF/A mode OFF on input line 6328.
+LaTeX Info: Redefining \ref on input line 6368.
+LaTeX Info: Redefining \pageref on input line 6372.
+\Hy@abspage=\count102
+\c@Item=\count103
+\c@Hfootnote=\count104
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2016/05/05 v6.83n Hyperref driver for pdfTeX
+\Fld@listcount=\count105
+\c@bookmark@seq@number=\count106
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip43
+)
+(./Design Document.aux)
+\openout1 = `"Design Document.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count107
+\scratchdimen=\dimen113
+\scratchbox=\box30
+\nofMPsegments=\count108
+\nofMParguments=\count109
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count110
+\MPscratchDim=\dimen114
+\MPnumerator=\count111
+\makeMPintoPDFobject=\count112
+\everyMPtoPDFconversion=\toks19
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@lstlisting=\count113
+\AtBeginShipoutBox=\box31
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/05/09 v1.1c Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 144.
+)
+Package hyperref Info: Link coloring ON on input line 8.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count114
+)
+LaTeX Info: Redefining \ref on input line 8.
+LaTeX Info: Redefining \pageref on input line 8.
+LaTeX Info: Redefining \nameref on input line 8.
+
+(./Design Document.out) (./Design Document.out)
+\@outlinefile=\write3
+\openout3 = `"Design Document.out"'.
+
+
+<images/polimi.png, id=200, 301.125pt x 301.125pt>
+File: images/polimi.png Graphic file (type png)
+ <use images/polimi.png>
+Package pdftex.def Info: images/polimi.png used on input line 13.
+(pdftex.def)             Requested size: 180.0pt x 180.00554pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 16.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 16.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 16.
+
+
+LaTeX Warning: No \author given.
+
+[1
+
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
+s/polimi.png>] (./Design Document.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 2.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.42 ...e {4}USER INTERFACE DESIGN}{30}{section.4}
+                                                   [1])
+\tf@toc=\write4
+\openout4 = `"Design Document.toc"'.
+
+ [2]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 36.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 36.
+ [3] [4] [5]
+<images/high_level_CD.png, id=286, 571.13374pt x 319.1925pt>
+File: images/high_level_CD.png Graphic file (type png)
+
+<use images/high_level_CD.png>
+Package pdftex.def Info: images/high_level_CD.png used on input line 99.
+(pdftex.def)             Requested size: 360.0pt x 201.19461pt.
+ [6 <./images/high_level_CD.png>]
+<images/low_level_CD.png, id=295, 1371.1225pt x 1065.9825pt>
+File: images/low_level_CD.png Graphic file (type png)
+
+<use images/low_level_CD.png>
+Package pdftex.def Info: images/low_level_CD.png used on input line 132.
+(pdftex.def)             Requested size: 360.0pt x 279.88153pt.
+ [7 <./images/low_level_CD.png>] [8] [9] [10]
+[11] [12] [13] [14] [15]
+<images/Deployment_View.png, id=336, 991.705pt x 1182.4175pt>
+File: images/Deployment_View.png Graphic file (type png)
+
+<use images/Deployment_View.png>
+Package pdftex.def Info: images/Deployment_View.png used on input line 502.
+(pdftex.def)             Requested size: 360.0pt x 429.22429pt.
+ [16] [17 <./images/Deployment_View.png>]
+<images/register_and_login_SD.png, id=349, 415.7934pt x 348.8232pt>
+File: images/register_and_login_SD.png Graphic file (type png)
+
+<use images/register_and_login_SD.png>
+Package pdftex.def Info: images/register_and_login_SD.png used on input line 51
+4.
+(pdftex.def)             Requested size: 360.0pt x 302.02066pt.
+Missing character: There is no Ã in font cmsl10!
+Missing character: There is no § in font cmsl10!
+ [18 <./images/register_and_login_SD.png>] <images/make_an_reservation_SD.png, 
+id=358, 417.2388pt x 303.534pt>
+File: images/make_an_reservation_SD.png Graphic file (type png)
+
+<use images/make_an_reservation_SD.png>
+Package pdftex.def Info: images/make_an_reservation_SD.png used on input line 5
+27.
+(pdftex.def)             Requested size: 360.0pt x 261.90488pt.
+Missing character: There is no Ã in font cmsl10!
+Missing character: There is no § in font cmsl10!
+
+<images/cancel_reservation_automatically_SD.png, id=360, 416.757pt x 146.949pt>
+File: images/cancel_reservation_automatically_SD.png Graphic file (type png)
+<use images/cancel_reservation_automatically_SD.png>
+Package pdftex.def Info: images/cancel_reservation_automatically_SD.png used on
+ input line 540.
+(pdftex.def)             Requested size: 360.0pt x 126.93648pt.
+ [19 <./images/make_an_reservation_SD.png>]
+<images/cancel_reservation_manually_SD.png, id=368, 416.757pt x 151.2852pt>
+File: images/cancel_reservation_manually_SD.png Graphic file (type png)
+
+<use images/cancel_reservation_manually_SD.png>
+Package pdftex.def Info: images/cancel_reservation_manually_SD.png used on inpu
+t line 553.
+(pdftex.def)             Requested size: 360.0pt x 130.68213pt.
+ [20 <./images/cancel_reservation_automatically_SD.png> <./images/cancel_reserv
+ation_manually_SD.png>]
+<images/complete_ride_on_mobile_app_side_SD.png, id=378, 416.757pt x 163.812pt>
+File: images/complete_ride_on_mobile_app_side_SD.png Graphic file (type png)
+<use images/complete_ride_on_mobile_app_side_SD.png>
+Package pdftex.def Info: images/complete_ride_on_mobile_app_side_SD.png used on
+ input line 566.
+(pdftex.def)             Requested size: 360.0pt x 141.50294pt.
+ [21 <./images/complete_ride_on_mobile_app_side_SD.png>]
+<images/complet_onboard.png, id=386, 416.757pt x 148.8762pt>
+File: images/complet_onboard.png Graphic file (type png)
+
+<use images/complet_onboard.png>
+Package pdftex.def Info: images/complet_onboard.png used on input line 585.
+(pdftex.def)             Requested size: 360.0pt x 128.60123pt.
+
+<images/saving_money.png, id=388, 416.757pt x 210.0648pt>
+File: images/saving_money.png Graphic file (type png)
+
+<use images/saving_money.png>
+Package pdftex.def Info: images/saving_money.png used on input line 600.
+(pdftex.def)             Requested size: 360.0pt x 181.45674pt.
+ [22 <./images/complet_onboard.png>]
+<images/Client_Server.png, id=396, 508.90125pt x 324.21124pt>
+File: images/Client_Server.png Graphic file (type png)
+
+<use images/Client_Server.png>
+Package pdftex.def Info: images/Client_Server.png used on input line 614.
+(pdftex.def)             Requested size: 360.0pt x 229.35553pt.
+ [23 <./images/saving_money.png>]
+<images/3z_Tiers_Architecture.png, id=404, 319.1925pt x 580.1675pt>
+File: images/3z_Tiers_Architecture.png Graphic file (type png)
+
+<use images/3z_Tiers_Architecture.png>
+Package pdftex.def Info: images/3z_Tiers_Architecture.png used on input line 62
+8.
+(pdftex.def)             Requested size: 143.9978pt x 261.72804pt.
+ [24 <./images/Client_Server.png>]
+[25 <./images/3z_Tiers_Architecture.png>]
+<images/ER.png, id=418, 990.70125pt x 611.28375pt>
+File: images/ER.png Graphic file (type png)
+ <use images/ER.png>
+Package pdftex.def Info: images/ER.png used on input line 656.
+(pdftex.def)             Requested size: 360.0pt x 222.12334pt.
+ [26 <./images/ER.png>]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+)
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 679.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 679.
+ [27]
+Overfull \hbox (7.92383pt too wide) in paragraph at lines 714--715
+[][][][][][][][][][][][][][][] 
+ []
+
+[28] [29] <images/welcome.png, id=495, 381.425pt x 756.8275pt>
+File: images/welcome.png Graphic file (type png)
+
+<use images/welcome.png>
+Package pdftex.def Info: images/welcome.png used on input line 752.
+(pdftex.def)             Requested size: 126.0022pt x 250.0079pt.
+ <images/register.png, id=496, 381.425pt x 756.8275pt>
+File: images/register.png Graphic file (type png)
+
+<use images/register.png>
+Package pdftex.def Info: images/register.png used on input line 756.
+(pdftex.def)             Requested size: 126.0022pt x 250.0079pt.
+ <images/self.png, id=499, 381.425pt x 756.8275pt>
+File: images/self.png Graphic file (type png)
+
+<use images/self.png>
+Package pdftex.def Info: images/self.png used on input line 766.
+(pdftex.def)             Requested size: 126.0022pt x 250.0079pt.
+ <images/search.png, id=500, 381.425pt x 756.8275pt>
+File: images/search.png Graphic file (type png)
+
+<use images/search.png>
+Package pdftex.def Info: images/search.png used on input line 770.
+(pdftex.def)             Requested size: 126.0022pt x 250.0079pt.
+ [30 <./images/welcome.png> <./images/register.png>]
+<images/make.png, id=514, 381.425pt x 756.8275pt>
+File: images/make.png Graphic file (type png)
+ <use images/make.png>
+Package pdftex.def Info: images/make.png used on input line 782.
+(pdftex.def)             Requested size: 126.0022pt x 250.0079pt.
+
+<images/pick.png, id=515, 381.425pt x 756.8275pt>
+File: images/pick.png Graphic file (type png)
+ <use images/pick.png>
+Package pdftex.def Info: images/pick.png used on input line 786.
+(pdftex.def)             Requested size: 126.0022pt x 250.0079pt.
+
+[31 <./images/self.png> <./images/search.png>]
+<images/desk.png, id=531, 454.3374pt x 405.1938pt>
+File: images/desk.png Graphic file (type png)
+ <use images/desk.png>
+Package pdftex.def Info: images/desk.png used on input line 802.
+(pdftex.def)             Requested size: 288.0011pt x 256.86241pt.
+
+[32 <./images/make.png> <./images/pick.png>]
+<images/navigation.png, id=543, 453.8556pt x 402.7848pt>
+File: images/navigation.png Graphic file (type png)
+
+<use images/navigation.png>
+Package pdftex.def Info: images/navigation.png used on input line 807.
+(pdftex.def)             Requested size: 288.0011pt x 255.59341pt.
+ <images/path.png, id=544, 455.301pt x 403.7484pt>
+File: images/path.png Graphic file (type png)
+
+<use images/path.png>
+Package pdftex.def Info: images/path.png used on input line 813.
+(pdftex.def)             Requested size: 288.0011pt x 255.39783pt.
+ [33 <./images/desk.png> <./images/navigation.png>]
+<images/optimal.png, id=551, 455.301pt x 404.712pt>
+File: images/optimal.png Graphic file (type png)
+ <use images/optimal.png>
+Package pdftex.def Info: images/optimal.png used on input line 819.
+(pdftex.def)             Requested size: 288.0011pt x 256.00737pt.
+
+<images/nearby.png, id=552, 455.7828pt x 404.2302pt>
+File: images/nearby.png Graphic file (type png)
+ <use images/nearby.png>
+Package pdftex.def Info: images/nearby.png used on input line 825.
+(pdftex.def)             Requested size: 288.0011pt x 255.42503pt.
+
+[34 <./images/path.png> <./images/optimal.png>] [35 <./images/nearby.png>]
+Overfull \hbox (19.51103pt too wide) in paragraph at lines 835--866
+ [] 
+ []
+
+[36]
+Overfull \hbox (5.43306pt too wide) in paragraph at lines 871--881
+[] 
+ []
+
+[37] [38]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 902.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 902.
+ (./Design Document.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 902.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 902.
+Package rerunfilecheck Info: File `"Design Document".out' has not changed.
+(rerunfilecheck)             Checksum: 21B55DA6D5C5B22889E9C3CE7C02F9BD;3484.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 902.
+ ) 
+Here is how much of TeX's memory you used:
+ 6952 strings out of 493014
+ 104722 string characters out of 6133351
+ 224318 words of memory out of 5000000
+ 10250 multiletter control sequences out of 15000+600000
+ 9164 words of font info for 32 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 29i,9n,51p,943b,1690s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on "Design Document.pdf" (39 pages, 1872053 bytes).
+PDF statistics:
+ 645 PDF objects out of 1000 (max. 8388607)
+ 540 compressed objects within 6 object streams
+ 169 named destinations out of 1000 (max. 500000)
+ 518 words of extra memory for PDF output out of 10000 (max. 10000000)
+

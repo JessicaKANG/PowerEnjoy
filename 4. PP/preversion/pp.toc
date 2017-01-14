@@ -1,0 +1,24 @@
+\contentsline {section}{\numberline {1}INTRODUCTION}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}Purpose}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Definitions and Abbreviations}{2}{subsection.1.2}
+\contentsline {section}{\numberline {2}FP ESTIMATION}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}Breve Introduction}{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Internal Logic Files}{3}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}External Interface Files}{3}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}External Input}{4}{subsubsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.2}External Output}{5}{subsubsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.3}External Inquiries}{5}{subsubsection.2.3.3}
+\contentsline {subsubsection}{\numberline {2.3.4}Final Estimation}{6}{subsubsection.2.3.4}
+\contentsline {section}{\numberline {3}EFFORT AND COST ESTIMATION}{8}{section.3}
+\contentsline {subsubsection}{\numberline {3.0.1}Introduction of COCOMO}{8}{subsubsection.3.0.1}
+\contentsline {subsubsection}{\numberline {3.0.2}Scale Drivers}{8}{subsubsection.3.0.2}
+\contentsline {subsubsection}{\numberline {3.0.3}Cost Drivers}{8}{subsubsection.3.0.3}
+\contentsline {subsubsection}{\numberline {3.0.4}Effort Estimation}{11}{subsubsection.3.0.4}
+\contentsline {section}{\numberline {4}RISKS AND RECOVERIES}{13}{section.4}
+\contentsline {subsubsection}{\numberline {4.0.1}Project Risk}{13}{subsubsection.4.0.1}
+\contentsline {subsubsection}{\numberline {4.0.2}Market Risk}{13}{subsubsection.4.0.2}
+\contentsline {subsubsection}{\numberline {4.0.3}Staff Experience}{13}{subsubsection.4.0.3}
+\contentsline {section}{\numberline {5}EFFORT SPENT}{14}{section.5}
+\contentsline {section}{\numberline {6}REFERENCES}{15}{section.6}
+\contentsline {subsection}{\numberline {6.1}Reference Documents}{15}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Used Tools}{15}{subsection.6.2}

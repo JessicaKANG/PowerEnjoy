@@ -1,0 +1,429 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{listings}
+\usepackage[colorlinks]{hyperref}
+\title{PowerEnjoy - Project Plan}
+\begin{document}
+
+\begin{titlepage}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\textwidth]{images/polimi}
+\end{figure}
+\maketitle
+\centering
+A.Y. 2016/2017
+
+Bolshakova Liubov, matr. 876911 
+
+Gao Xiao, matr. 876265 
+
+Kang Shuwen, matr. 876245
+
+\end{titlepage}
+
+\tableofcontents
+\newpage
+	
+\section{INTRODUCTION}
+	\subsection{Purpose}
+	This document represents the Project Plan Document in order to specific the evaluation of effort and cost which need in developing the PowerEnJoy project. In this document ,we use COCOMO and Function Point algorithmic techniques to to clarify the total work we should do as well as the technique support. We also focus on the risks we have and enumerate basic strategies to avoid them.
+
+	 
+	\subsection{Definitions and Abbreviations}	
+	\begin{itemize}
+	\item Car: the cars that supplied for the car-sharing service in the \textsl{PowerEnJoy} system.
+	\item Car information: the basic information that helps guests and users to make decisions, include the dump energy, location information, distance to the setting location, the passenger capacity.
+	\item Starting position: the current position of user or the positions user input to start a ride.
+	\item Available car: the car has dump energy more than 50% and be parked in the safe area.
+	\item Available queue: a queue that maintains available cars 
+	\item Sensors: the GPS and power plug sensor, weight sensor, display screen, battery sensor, door state sensor, locks of door in the car, and the sensor on the power grid. 
+	\item System: the whole system, which include the electric devices and the \textsl{PowerEnJoy} system background.
+	\item Ride: in this system, the ride process is started with ignite the engine and ended with all passengers leave the car.
+
+	\end{itemize}
+		    
+	
+\newpage
+\section{FP ESTIMATION}
+	\subsection{Breve Introduction}
+	Function Points is part of the algorithmic techniques for cost and estimation modelling. It bases on the assumption that the dimension of the software can be characterized by abstraction. The main function points are based on following aspects.
+
+	\subsection{Internal Logic Files}
+	The system include some Internal Logic Files (IFL) to store the related persistent information, which are the users account information, the car information about battery, state and location.
+We are now going to explain the ITF as following:
+	\begin{itemize}
+		\item Users account: four different tables are expected, listed below:
+			\begin{itemize}
+			\item User information:ID(key), name, surname, driving license information, encrypted password, email address, credit card ID.
+			\item APP keys:ID(key),linked email address, encrypted password.
+
+			\end{itemize}
+		\item Car information:ID(key), dump energy, car state, capacity of passenger.
+ 
+	\end{itemize}
+\begin{table}[h]
+\begin{center}
+\renewcommand\arraystretch{1.5}
+\begin{tabular}{|p{7cm}|p{3cm}|p{2cm}|}
+ \hline
+ILF& Complexity&FP\\
+ \hline
+User account&Avg&10 \\
+ \hline
+Car information&Low&7 \\
+ \hline
+\end{tabular}
+\caption{ITF}
+\end{center}
+\end{table}
+	
+	\subsection{External Interface Files}
+	To provide an efficient service, our system also connected to some external applications, the system need External Logic Files (EIF) to store those data:
+	\begin{itemize}
+	\item Google API: geographical data which is needed to locate the GPS of car and the user.
+	\item Traffic system: data about the validation of users' driving licenses.
+	\item Bank system: data about the validation of credit card which users supplied, also the data of payment information after the driving or reservation processes.
+	\end{itemize}
+\begin{table}[H] 
+\begin{center}
+\renewcommand\arraystretch{1.5}
+\begin{tabular}{|p{7cm}|p{3cm}|p{2cm}|}
+ \hline
+EIF& Complexity&FP\\
+ \hline
+Google API&Low&5\\
+ \hline
+Traffic system&Low&5\\
+ \hline
+Bank system&Low&5\\
+ \hline
+\end{tabular}
+\caption{EIF}
+\end{center}
+\end{table}
+	\subsubsection{External Input}
+	The system allows users to maintain Internal Logical Files (ILFs) in order to add, change and delete the data.
+
+According to the functional requests which are listed in the RASD document, there are the functionalities can be considered as External Input.
+	\begin{itemize}
+	\item Allows a guest executes the registration to become a user.
+	\item Allows users to login into the system.
+	\item Allows users to search the available cars near the starting position.
+	\item Allow users to make reservation.
+	\item Allow users to cancel the reservation.
+	\item Allows the users to pick up the car.
+	\item Allow users to access the \textsl{Saving Money Option}.
+	\end{itemize}
+\begin{table}[H] 
+\begin{center}
+\renewcommand\arraystretch{1.5}
+\begin{tabular}{|p{7cm}|p{3cm}|p{2cm}|}
+ \hline
+EI& Complexity&FP\\
+ \hline
+Allows a guest executes the registration to become a user.&Low&3\\
+ \hline
+Allows user to login into the system.&Low&3\\
+ \hline
+Allows the users to search the available cars near the starting position.&Low&3\\
+ \hline
+Allow users to make reservation.&Avg&4\\
+ \hline
+Allow users to cancel the reservation.&Low&3\\
+ \hline
+Allow the users to pick up the car.&Low&3\\
+ \hline
+Allows the users to pick up the car.&Low&3\\
+ \hline
+\end{tabular}
+\caption{EI}
+\end{center}
+\end{table}	
+	
+	\subsubsection{External Output}
+	This Transactional function point can realize the production of outputs. For the aim of accomplishing services, system should response the result data to users, the data that responded is called External Output (EO).
+
+According to the RASD document , the External Output functionalities are as follows:
+	\begin{itemize}
+	\item Produce the list of available cars near the starting position got by GPS signal.
+	\item Produce the optimal parking station according to the destination user inputed.
+	\item Produce the amount of money user should pay after the driving or missing the reservation.
+ 	\item Produce an external programmatic interface to the external applications to communicate with the system and get the information they need for services.
+	\end{itemize}
+	
+\begin{table}[H] 
+\begin{center}
+\renewcommand\arraystretch{1.5}
+\begin{tabular}{|p{7cm}|p{3cm}|p{2cm}|}
+ \hline
+EO& Complexity&FP\\
+ \hline
+List of available cars
+&Low
+&4\\
+ \hline
+Optimal parking position
+&Low
+&4\\
+ \hline
+Money in the payment
+&Low
+&4\\
+ \hline
+Programmatic interface
+&Low
+&4\\
+ \hline
+\end{tabular}
+\caption{EO}
+\end{center}
+\end{table}	
+	\subsubsection{External Inquiries}
+	To accomplish the interaction between the user and system, there should have a function to accept the user selections from the displayed and listed data from files. In this process , the data was not be changed but only a direct retrieval of information contained on the files. These processes are referred to as External Inquiries (EQ).
+
+In accordance to the RASD documents, we have identified these points:
+	\begin{itemize}
+	\item Display the location of user and the cars on the map.
+	\item Display ride information includes recharge money, dump energy of cars. Visualize the list of available cars around the starting position.
+	\item Display the optimal destination when users choose the saving money option.
+	\item Display the information of cars.
+	\item Display the countdown time in the screen of mobile phone after user made a reservation.
+	\end{itemize}
+\begin{table}[H] 
+\begin{center}
+\renewcommand\arraystretch{1.5}
+\begin{tabular}{|p{7cm}|p{3cm}|p{2cm}|}
+ \hline
+EQ& Complexity&FP\\
+ \hline
+Display location of users and cars
+&Low
+&3\\
+ \hline
+Display the ride information
+&Low
+&3\\
+ \hline
+Display the list of available cars
+&Low
+&3\\
+ \hline
+Display the optimal destination
+&Low
+&3\\
+ \hline
+Display the car information
+&Low
+&3\\
+ \hline
+Display the countdown of one hour
+&Low
+&3\\
+ \hline
+\end{tabular}
+\caption{EQ}
+\end{center}
+\end{table}
+	\subsubsection{Final Estimation}
+	Now we look back at the Function Points assigned in the previous part, we have a overview:
+\begin{table}[H] 
+\begin{center}
+\renewcommand\arraystretch{1.5}
+\begin{tabular}{|p{7cm}|p{5cm}|}
+ \hline
+Function Type
+&Value\\
+ \hline
+Internal Logic Files
+&17\\
+ \hline
+External Interfaces Files
+&15\\
+ \hline
+External Input
+&22\\
+ \hline
+External Inquiries
+&16\\
+ \hline
+External Output
+&18\\
+ \hline
+\textbf{Total}
+&88\\
+ \hline
+\end{tabular}
+\caption{Final Estimation}
+\end{center}
+\end{table}	
+\textbf{Lines of Code} now we can estimate the number of SLOC (Source Line of Code). SLOC is the necessary number of code lines we need for our software. In the URL which is specified below, we can find the AVG (Average number of LOC per FP for a given language). As we choose the java as the language for this program, we have:	
+\begin{equation} 
+\frac{SLOC}{FP} = 46
+\end{equation}
+so the expected number of SLOC is :
+\begin{equation} 
+46 \times 88= 4048
+\end{equation}
+\newpage	
+\section{EFFORT AND COST ESTIMATION}
+	\subsubsection{Introduction of COCOMO}
+	COnstructive COost MOdel (COCOMO) is a cost estimation model which based on scale drivers and cost drivers, help to determine the general effort, duration and number of people needed for the project. The value of COCOMO are also involved by FP value we calculated in the previous part.
+	\subsubsection{Scale Drivers}
+	\begin{itemize}
+	\item Precedentedness
+	
+	This value is proportional to the experience we have for similar projects. Since this is our first time using this framework and method, we don't have many past example can be consulted , so this value must be very low.
+	\item Development Flexibility
+	
+	It reflects the degree of flexibility that exists when implementing the project. This value is high, because we our work is based on single page goals document.
+	\item Architecture/Risk Resolution
+	
+	Reflects the degree of uncertainty about requirement. Since the electric-car sharing applications have been used for many years, and we know clearly how this service works, the user requirements is quite certain, so the value is low.
+	\item Team Cohesion
+	
+	A process where the group stays together in pursuit of a goal, it depends mostly on the member interact and interdependency. In our group, we have three member who are from different countries, so we have a bit difficulty in the communication and opinion, but it decreased gradually while we work together, so this value is high.
+	\item Process maturity
+	
+	This was evaluated around the 18 Key Process Area (KPAs) in the SEI Capability Model. We have arrived the level 2 repeatable, so the value of this is normal.
+	\end{itemize}
+	
+	\subsubsection{Cost Drivers}
+	\begin{itemize}
+	\item Required Software Reliability
+	
+	This is the measure the stability of the software in a period of time, and the reliability is connected directly with the consequences would have if there are failures or errors exist in the software. In our case , the value is low because there would not induce heavy consequences even the software fails in the execution.
+	\item Data Base Size
+	
+	The database is the base infrastructure of a software, the size of database is an important factor to the capability of a service. Since in this example we don't have a large amount of data,the value will be low.
+	\item Product Complexity
+	
+	Complexity is divided into five areas: control operations, computational operations, device- dependent operations, data management operations, and user interface management operations. Select the area or combination of areas that characterize the product or a sub-system of the product. The complexity rating is the subjective weighted average of these areas.
+
+In accordance with the new COCOMO II CPLEX rating scale, this value will be high.
+	\item Required Re-usability
+	
+	This cost driver accounts is defined as the capability to use in a project requirements that have already been used before in other projects. This allows optimizing resources during development and reduce errors.
+
+We have chosen a nominal value,for in this case the architecture and methods are quite relative to the specific requests.
+	\item Documentation match to life-cycle needs
+	
+	The cost driver is evaluated in terms of the suitability of the project's documentation to its life-cycle needs. The value of this is high, because we followed the standard processing of documentation and write the document step by step.
+	
+	\item Analyst Capability
+	
+	Analysts are personnel that work on requirements, high level design and detailed design. The major attributes that should be considered in this rating are Analysis and Design ability, efficiency and thoroughness, and the ability to communicate and cooperate. We chosen high for this value.
+	\item Programmer Capability
+	
+	Evaluation is based on the capability of the programmers as a team rather than as individuals. Major factors which should be considered in the rating are ability, efficiency and thoroughness, and the ability to communicate and cooperate. This parameter is evaluated according to our degree of cooperation,so the value of this is high due to the excellent cooperation of our team.
+
+	\item Application Experience
+	
+	This rating is dependent on the level of applications experience of the project team developing the software system or subsystem. The ratings are defined in terms of the project team's equivalent level of experience with this type of application. A very low rating is for application experience of less than 2 months. A very high rating is for experience of 6 years or more. From the developing time aspect , our value is low, because we spend less than 6 month on this project according to your document schedule.
+	\item Platform Experience
+	
+	This rating is based on the capabilities of understanding the use of powerful platforms, including more graphic user interface, database and networking. The value of this scale is low for our team because of the lack of experience.
+
+	\item Language and Tool Experience
+	
+	This is a measure of the level of programming language and software tool experience of the project team developing the software system or subsystem. Software development includes the use of tools that perform requirements and design representation and analysis, configuration management, document extraction, library management, program style and formatting, consistency checking, etc. In addition to experience in programming with a specific language the supporting tool set also effects development time. A low rating given for experience of less than 2 months. A very high rating is given for experience of 6 or more years. For this scale of factor our value is low.
+	\item Personnel Continuity
+
+The rating scale for Continuity is in terms of the project's annual personnel
+turnover,We've selected a value very high because all members of our group are focus on the project from the beginning .
+	\item Platform Volatility
+	
+	It represents the volatility of the platform. Because the principal users are mobile clients, we know this kind of technology is continually updating. Then the value is set as high.
+	\item Use of Software Tools
+	
+	In accordance with COCOMO® table, the value of our team is very low because we only edit and debug the code.
+	\item Multisite Development
+	
+	Given the increasing frequency of multisite developments, and indications that multisite development effects are significant, the SITE cost driver has been added in COCOMO® II. Determining its cost driver rating involves the assessment and averaging of two factors: site collocation (from fully collocated to international distribution) and communication support (from surface mail and some phone access to full interactive multimedia).
+
+We used narrow-band email and phone for the communication with users, so the value is normal.
+	\item Required Development Schedule
+	
+	This rating measures the schedule constraint imposed on the project team developing the software. The ratings are defined in terms of the percentage of schedule stretch-out or acceleration with respect to a nominal schedule for a project requiring a given amount of effort. Accelerated schedules tend to produce more effort in the later phases of development because more issues are left to be determined due to lack of time to resolve them earlier. A schedule compress of 74\% is rated very low. A stretch-out of a schedule produces more effort in the earlier phases of development where there is more time for thorough planning, specification and validation. A stretch-out of 160\% is rated very high. We have chosen the scale normal,because we follow the developing step by step on time.
+	\end{itemize}
+	
+	\subsubsection{Effort Estimation}
+Base on the COCOMO formula, we translate the level of cost driver and scale drivers into the numbers, the very low counts 5, low counts 4, normal counts 3, high counts 2,very high counts 1,extra high counts 0.
+
+After the calculation we get the value of cost drivers is EAF= 1.00, and scale drivers is E=1.0997 in order to calculate the effort, inserting this values in the formula:
+\begin{equation} 
+effort = 2.94 \times EAF \times (KSLOC)^{E}
+\end{equation}
+\begin{equation} 
+effort = 2.94 \times 100 \times (4.048)^{1.0997} = 13.68 Person/Month
+\end{equation}
+The duration of the project can be found with this formula, considering the exponent E = 0.3179:
+\begin{equation} 
+Duration = 3.67 \times (effort)^{E}
+\end{equation}
+\begin{equation} 
+Duration = 3.67 \times (1.368)^{0.3179} = 8.43 Month
+\end{equation}
+Now it is possible to calculate the number of people needed for this project.
+\begin{equation} 
+N.people = effort/Duration
+\end{equation}
+\begin{equation} 
+N.people = 13.68 / 8.43 = 1.62 Person
+\end{equation}
+\newpage
+\section{RISKS AND RECOVERIES}
+Risk management is an important issue for the development of a project, thus it is impossible to develop software with zero risks, and risks can affect the project schedule as well as the quality of the product, it is necessary to estimate the risks before we start doing the project.
+
+These are the risks that could be found:
+	\subsubsection{Project Risk}
+	This is a critical risk: it is possible that while going on the implement of system, there exists some request misunderstanding in the late phase in the project. In this situation, following the previous schedule would be a hard work and the product may finish after the estimated time.
+
+To avoid this, we can take the strategy of building many basic prototypes with GUI, and investigate with some users, this way can avoid the heavy modifications when most of the system has already been implemented.
+	\subsubsection{Market Risk}
+For developing a software, the main problem is if the market accept this software, in another words, if we can sell this software and make interests. The competitions between software who has similar functions is the main factor, in order to avoid this situation, the investigation face to the market is very important.	
+	\subsubsection{Staff Experience}
+It is possible that the lack of technical experience of the project developers affect the quality of the software and the schedule of the project.
+
+In order to prevent this from happening, the team of software devolving should be guide by someone who has plenty experience of this kind of projects.
+
+
+\newpage
+\section{EFFORT SPENT}
+
+\renewcommand\arraystretch{2}
+\begin{tabular}{| p{5cm}| p{7cm}|}
+ \hline
+Gao Xiao& 15 Hours \\
+ \hline
+Kang Shuwen& 12 Hours \\
+ \hline
+Liubov Bolshakova& 10 Hours \\
+ \hline
+
+\end{tabular}
+
+\newpage
+\section{REFERENCES}
+	\subsection{Reference Documents}
+	\begin{itemize}
+		\item Specification Document Assignments AA 2016-2017
+		\item RASD
+		\item Design Document
+		\item Integration Test Plan Document
+		\item \url{sunset.usc.edu/research/COCOMOII/expert_cocomo/drivers.html}
+		\item \url{http://www.qsm.com/resources/function-point-languages-table}
+	\end{itemize}
+	\subsection{Used Tools}
+	The tools used to creat this document are:
+	\begin{itemize}
+		\item Github: for version control
+		\item Latex: for typesetting
+		 
+	\end{itemize}
+
+\newpage
+	
+\end{document}

